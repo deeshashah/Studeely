@@ -1,0 +1,59 @@
+.name p{
+	font-size: 2.7em;
+	padding-top: 35px;
+  font-family: Dancing Script;
+
+}
+#div1 { width:97%; height: 309px; float: left;background: #DDD; margin: 10px;}
+#div2 { width: 97%; height: 309px; float: left;background: #AAA; margin: 10px; }
+#div3 { width: 97%; height: 308px; float: left;background: #777; margin:10px;}
+.row{
+	position: relative;
+	top: 6em;
+}
+.main_box{
+ 
+  /* Important parameters of style start */
+  position: relative;
+  overflow: hidden;
+  float: left;
+  /* Important parameters of style end */
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.main_box img{
+  height: 20em;
+  width: 20em;
+}
+#footer{
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background: 
+  
+    url("../images/footimg.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+}
+.logo h1{
+display: inline;
+margin:0 0 5px 0;
+font-size:72px;
+color:white;
+text-align:center;
+font-family: Dancing Script ;
+
+}
+.logo h4{
+	position: relative;
+	float: right;
+	top: 30px;
+	font-family: Satisfy;
+	font-size: 25px;
+}
+.logo h1 a span{
+color:white;
+}

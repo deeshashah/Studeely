@@ -1,0 +1,15 @@
+
+ul{
+	list-style-type: upper-alpha;
+}
+li a{
+	padding: 0px;
+	color: black;
+	list-style-type: upper-alpha;
+}
+li a:hover{
+	color: grey;
+}
+.lesson li:first-child{
+	padding-top: 13px;
+}

@@ -1,0 +1,18 @@
+body{
+    background: url(http://mymaplist.com/img/parallax/back.png);
+	background-color: #444;
+    background: url(http://mymaplist.com/img/parallax/pinlayer2.png),url(http://mymaplist.com/img/parallax/pinlayer1.png),url(http://mymaplist.com/img/parallax/back.png);    
+}
+
+.vertical-offset-100{
+    padding-top:100px;
+}
+.btn-success {
+    color: #FFF;
+    background-color: #3498DB;
+    border-color: #4CAE4C;
+}
+.panel-heading h3{
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.7em;
+}

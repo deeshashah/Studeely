@@ -1,0 +1,10 @@
+a{
+	color:black;
+}
+label{
+	display: block;
+	font-weight: 500;
+}
+div.content-wrapper{
+	min-height: 500px;
+}

@@ -1,0 +1,95 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studeely | Profile</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% get_static_prefix %}css/profile.css">
+    <style type="text/css">
+    .glyphicon{
+    	float: right;
+    }
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="home" class="logo">
+               <center>   <h1><a href="/">Studee<span>ly</span></a></h1></center>
+      </div>
+<div class="card"><!-- Face 2 -->
+  <div class="card-face face-2"><!-- Back trigger -->
+    <button data-card-back="data-card-back" class="card-face__back-button">
+    <img src="http://imgh.us/arrow_1.svg" width="19" height="19" draggable="false"/>
+    </button>
+    <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                           {{fullname|title}}<span class="glyphicon glyphicon-plus"></span> </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>{{form.shortbio|title}}</p>
+                        </div>
+                    </div>
+                </div>
+     <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            </span>Basic Info<span class="glyphicon glyphicon-plus"></span> </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Email:{{email}}</p><br>
+                            <p>DOB:{{form.dob}}</p>
+                        </div>
+                    </div>
+                </div>
+    <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            </span>Social Links<span class="glyphicon glyphicon-plus" ></span> </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                        {%if form.gplink%}
+                            <a href="{{form.gplink}}" target="_blank"><p>Google + </p></a><br>
+                        {%endif%}
+                        {%if form.fblink%}
+                            <a href="{{form.fblink}}" target="_blank"><p>Facebook</p></a><br>
+                        {%endif%}
+                        {%if form.twlink%}
+                            <a href="{{form.twlink}}" target="_blank"><p>Twitter</p></a>
+                        {%endif%}
+                        
+                        </div>
+                    </div>
+                </div>
+   
+    <img src="http://imgh.us/cog.svg" width="17" height="17" draggable="false" class="card-face__settings-button"/>
+  </div><!-- Face 1 -->
+  <div class="card-face face-1"><!-- Menu trigger -->
+    <button data-card-menu="data-card-menu" class="card-face__menu-button"><img src="http://imgh.us/dots_1.svg" width="5" height="23" draggable="false"/></button><!-- Avatar -->
+    <div class="card-face__avatar"><!-- Bullet notification --><!-- User avatar --><img src="http://i.imgur.com/gGdWosb.png" width="130" height="130" draggable="false"/></div><!-- Name -->
+    <h2 class="card-face__name">{{fullname|title}}</h2><!-- Title --><span class="card-face__title">{{form.shortbio|title}}</span><!-- Cart Footer -->
+    <div class="card-face-footer"><a href="https://dribbble.com/astorino_mattia" target="_blank" class="card-face__social"><img src="http://imgh.us/dribbble.svg" width="36" height="36" draggable="false"/></a>
+
+    <a href="https://www.behance.net/mattia_astorino" target="_blank" class="card-face__social"><img src="http://imgh.us/beh.svg" width="36" height="36" draggable="false"/></a>
+
+    <a href="https://plus.google.com/u/0/+MattiaAstorino/posts" target="_blank" class="card-face__social"><img src="http://imgh.us/plus_5.svg" width="36" height="36" draggable="false"/></a></div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{% get_static_prefix %}js/profile.js" type="text/javascript"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
