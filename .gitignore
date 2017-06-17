@@ -1,2 +1,2 @@
-newenv/
-.git/
+db.sqlite3
+*.pyc
