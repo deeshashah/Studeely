@@ -18,13 +18,36 @@ Apart from dynamicity, the application also focuses on the aestheticity and look
 
 ### Features
 
-- Landing Page with beautiful animations
+- Landing Page
+![Landing Page](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/landingPage.png)
+
 - Tour Page
+![Tour](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/tour.png)
+
 - Login/Register Page
+![Login](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/login.png)
+
 - Profile
+![profile](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/profile.png)
+
+![profile](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/profile2.png)
+
 - Dashboard
+![Dashboard](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/Screenshot%20from%202017-06-17%2013-39-27.png)
+
 - List of Topics
+![List Of Topics](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/topics.png)
+
 - Study
+![Study](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/study.png)
+
 - Test
+![Test](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/test.png)
+
 - Analysis
+![Analysis](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/analysis.png)
+
 - Responsive design
+![Responsive](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/responsive2.png)
+
+![Responsive](https://raw.githubusercontent.com/deeshashah/Studeely/master/screenshots/responsive1.png)
